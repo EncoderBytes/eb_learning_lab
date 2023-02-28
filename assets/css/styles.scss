@@ -1631,12 +1631,13 @@ img {
         }
 
         #bannerbg {
-            padding: 6rem 0rem 6rem 0rem;
-            background-image: url(../img/bannerbg.png);
-            background-repeat: no-repeat;
-            background-size: cover;
 
             #div1 {
+                padding: 4rem 0rem 8rem 0rem;
+                background-image: url(../img/bg3.png);
+                background-repeat: no-repeat;
+                // background-size: 300px 100px;/
+
                 #div2 {
                     #div3 {
                         padding: 63px 0 0 0;
@@ -1692,24 +1693,23 @@ img {
             }
         }
 
-        #frequentquestion {
-            margin: 6rem 7rem 0 7rem;
+        #career {
+            margin: 3rem 7rem 4rem 7rem;
 
             #div1 {
                 #div2 {
                     #img-div {
-                        margin: 41px 0;
+                        padding: 3rem 0px;
 
                         .content {
                             h2 {
-                                font-family: 'Poppins';
                                 font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
                             }
 
                             p {
@@ -1721,6 +1721,326 @@ img {
                             }
                         }
 
+                        .para {
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #8B8B8B;
+                                padding: 28px 31px 0 0;
+                                text-align: justify;
+                            }
+
+                            .about_button {
+                                margin: 31px 0 0px 0;
+
+                                .btn3 {
+                                    color: var(--white-color);
+                                    border-radius: 21px;
+                                    background-color: var(--primary-color);
+                                    border-color: var(--primary-color);
+                                    width: 28%;
+                                    padding: 9px 18px;
+
+                                    &:hover {
+                                        background-color: transparent;
+                                        color: #4C7CDE;
+                                        border-color: var(--primary-color);
+                                    }
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                        display: flex;
+                                        justify-content: center;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #testi {
+            margin: 3rem 7rem 0 7rem;
+
+            #div1 {
+                #div2 {
+                    .card1 {
+                        background: #F8F8F8;
+                        border-radius: 8px;
+                        padding: 32px;
+
+                        .imgdiv {
+                            div {
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 12px;
+                                        line-height: 15px;
+                                        letter-spacing: 0.02em;
+                                        text-transform: capitalize;
+                                        color: rgba(69, 69, 69, 0.5);
+                                    }
+                                }
+                            }
+                        }
+
+                        .textdiv {
+                            p {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 15px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
+                            }
+                        }
+                    }
+                }
+
+                #divbtn {
+                    background: linear-gradient(180deg, rgba(255, 255, 255, .4) 0%, #FFFFFF 100%);
+                    position: relative;
+                    top: -26rem;
+                    height: 429.38px;
+                    padding: 135px 0 0 0;
+
+                    .career_button {
+                        margin: 31px 0 0px 0;
+
+                        .btn3 {
+                            color: var(--white-color);
+                            border-radius: 21px;
+                            background-color: var(--primary-color);
+                            border-color: var(--primary-color);
+                            width: 100%;
+                            padding: 9px 18px;
+
+                            &:hover {
+                                background-color: var(--white-color);
+                                color: #4C7CDE;
+                                border-color: var(--white-color);
+                            }
+
+                            span {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 22px;
+                                display: flex;
+                                justify-content: center;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #background {
+            background-color: white;
+            height: 9rem;
+            position: relative;
+            top: -38rem;
+        }
+
+        #events {
+            margin: -41rem 0rem 0 0rem;
+            /* padding-bottom: 7rem; */
+            position: relative;
+
+            #div1 {
+                #div2 {
+                    #img-div {
+                        .content {
+                            h2 {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                text-align: center;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                padding: 0 68px;
+                                color: #454545;
+                            }
+                        }
+                    }
+                }
+
+                #div4 {
+                    margin: 60px 0;
+
+                    div {
+                        .card1 {
+                            background: rgba(93, 135, 197, 0.1);
+                            border-radius: 8px;
+                            padding: 0 0 36px 0;
+                            width: 392px;
+
+                            .time {
+                                padding: 34px 24px 0 24px;
+
+                                .div2 {
+                                    h2 {
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        text-align: right;
+                                        letter-spacing: 0.02em;
+                                        color: #5D87C5;
+                                    }
+                                }
+
+                                .div1 {
+                                    h2 {
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        text-align: right;
+                                        letter-spacing: 0.02em;
+                                        color: #5D87C5;
+                                    }
+                                }
+                            }
+
+                            .textdiv {
+                                padding: 11px 24px 0 24px;
+
+
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                    padding: 0 48px 7px 0;
+                                }
+
+                                h3 {
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        letter-spacing: 0.02em;
+                                        color: #4C7BC1;
+                                    }
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                }
+
+                                .btndiv {
+                                    padding: 33px 0 0 0;
+
+                                    .div1 {
+                                        h2 {
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            font-size: 16px;
+                                            line-height: 19px;
+                                            text-align: right;
+                                            letter-spacing: 0.02em;
+                                            padding: 10px;
+                                            color: #5B5858;
+                                        }
+                                    }
+
+                                    .div2 {
+                                        .card_button {
+
+                                            .btn3 {
+                                                color: var(--white-color);
+                                                border-radius: 21px;
+                                                background-color: var(--primary-color);
+                                                border-color: var(--primary-color);
+                                                width: 100%;
+                                                padding: 8px 16px;
+
+                                                &:hover {
+                                                    background-color: transparent;
+                                                    color: #4C7CDE;
+                                                    border-color: var(--primary-color);
+                                                }
+
+                                                span {
+                                                    font-style: normal;
+                                                    font-weight: 500;
+                                                    font-size: 14px;
+                                                    line-height: 22px;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    text-transform: uppercase;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #frequentquestion {
+            margin: 6rem 7rem 0 7rem;
+
+            #div1 {
+                #div2 {
+                    #img-div {
+                        margin: 41px 0;
+
+                        .content {
+
+                            p {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
+                                padding: 0 17rem 0 0;
+                            }
+                        }
+
                         .Dropdowns {
                             #all_container {
 
@@ -1728,10 +2048,8 @@ img {
                                 .faq {
                                     width: 100%;
                                     margin: 0 auto;
-                                    // background: var(--first-color);
-                                    // border-radius: 4px;
                                     position: relative;
-                                    border-bottom: 1px dashed var(--first-color);
+                                    margin-bottom: 10px;
 
                                     label {
                                         display: block;
@@ -1741,23 +2059,32 @@ img {
                                         height: 56px;
                                         padding-top: 1px;
                                         border-radius: 10px;
+                                        background: white;
+                                        box-shadow: 0px 4px 30px rgba(93, 135, 197, 0.15);
+                                        border-radius: 8px;
 
                                         .faq-heading {
-                                            font-weight: 800;
-                                            font-size: 14px;
                                             padding: 16px;
-                                            color: var(--first-color);
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                            line-height: 24px;
+                                            letter-spacing: 0.02em;
+                                            color: #454545;
                                         }
 
                                         .faq-text {
-                                            font-weight: 300;
-                                            font-size: 16px;
-                                            line-height: 100%;
-                                            color: var(--first-color);
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 19px;
+                                            letter-spacing: 0.02em;
+                                            color: #454545;
                                             width: 95%;
                                             padding-left: 20px;
                                             margin-bottom: 30px;
                                             text-align: justify;
+
                                         }
                                     }
 
@@ -1771,11 +2098,11 @@ img {
                                         transition: -webkit-transform 0.8s;
                                         transition: transform 0.8s;
                                         transition: transform 0.8s, -webkit-transform 0.8s;
-                                        border-top: 4px solid var(--dark-color);
-                                        border-right: 4px solid var(--dark-color);
+                                        border-top: 3px solid var(--dark-color);
+                                        border-right: 3px solid var(--dark-color);
                                         float: right;
                                         position: relative;
-                                        top: -51px;
+                                        top: -49px;
                                         right: 30px;
                                         transform: rotate(45deg);
                                     }
@@ -1797,8 +2124,10 @@ img {
                                             &>.faq-heading {
                                                 font-weight: 800;
                                                 font-size: 14px;
-                                                color: var(--primary-color);
+                                                color: white;
+                                                background-color: var(--primary-color);
                                                 padding: 16px;
+                                                border-radius: 8px;
                                             }
                                         }
                                     }
@@ -1808,6 +2137,8 @@ img {
                                             display: block;
                                             transition: height 0.8s;
                                             height: 60px;
+                                            background: #E4E4E4;
+                                            margin: 0 0 10px 0;
                                         }
                                     }
                                 }
@@ -1820,13 +2151,14 @@ img {
     }
 
     #contact {
-        padding: 6rem 7rem 0rem 7rem;
-
+        margin: 6rem 0 0 0;
+        padding: 0rem 7rem 0rem 7rem;
+        background-image: url(../img/contactbg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
 
         #div1 {
-            background-image: url(../img/contactbg.png);
-            background-repeat: no-repeat;
-            background-size: 80rem 54rem;
+
 
 
             #div2 {
