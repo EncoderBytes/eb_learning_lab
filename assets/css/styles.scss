@@ -80,7 +80,7 @@ img {
     top: 0;
     left: 0;
     padding: 0 1.5rem;
-    // background-color: var(--dark-color);
+    background-color: var(--primary-color);
     z-index: var(--z-fixed);
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,7 @@ img {
 
     &__toggle {
         font-size: 1.5rem;
-        color: var(--primary-color);
+        color: #454545;
         cursor: pointer;
     }
 }
@@ -116,10 +116,10 @@ img {
         #hero {
             margin-left: 0;
             width: 100%;
-            background-image: url(../img/bg.png);
+            background-image: url(../img/bg2.png);
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 33rem;
+            height: 54rem;
 
             ::placeholder {
                 color: white;
@@ -132,37 +132,37 @@ img {
                         justify-content: center;
 
                         .itm1 {
-                            margin-top: 0rem;
-                            padding: 15.6rem 0 0 0;
+                            margin-top: -14rem;
+                            // padding: 6rem 0 0 0;
 
 
                             p {
-                                font-family: 'Poppins';
                                 font-style: normal;
                                 font-weight: 400;
                                 font-size: 16px;
-                                line-height: 24px;
-                                display: flex;
-                                align-items: center;
+                                line-height: 19px;
+                                text-align: center;
+                                letter-spacing: 0.02em;
                                 color: #FFFFFF;
-                                // padding: 20px 13rem;
                             }
 
                             .hero_button {
                                 margin: 18px 0 46px 0;
 
                                 .btn3 {
-                                    color: var(--white-color);
+                                    color: var(--First-color);
                                     // opacity: .4;
-                                    background-color: var(--primary-color);
-                                    border-color: var(--primary-color);
+                                    background-color: var(--white-color);
+                                    border-color: var(--white-color);
                                     width: 100%;
-                                    padding: 9px 18px;
+                                    margin: 10px 0;
+                                    border-radius: 29px;
+                                    padding: 15px 18px;
 
                                     &:hover {
-                                        background-color: transparent;
-                                        color: #4C7CDE;
-                                        border-color: var(--primary-color);
+                                        background-color: var(--first-color);
+                                        color: white;
+                                        border-color: var(--first-color);
                                     }
 
                                     span {
@@ -173,6 +173,41 @@ img {
                                         display: flex;
                                         justify-content: center;
                                         text-transform: uppercase;
+                                    }
+                                }
+
+                                .btn4 {
+                                    color: var(--white-color);
+                                    // opacity: .4;
+                                    background-color: var(--first-color);
+                                    border-color: var(--first-color);
+                                    width: 100%;
+                                    border-radius: 29px;
+                                    padding: 15px 18px;
+
+
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                        display: flex;
+                                        justify-content: center;
+                                        text-transform: uppercase;
+
+                                        img {
+                                            width: 22px;
+                                            padding: 3px;
+
+                                        }
+                                    }
+
+                                    &:hover {
+                                        background-color: transparent;
+                                        color: white;
+                                        border-color: var(--white-color);
+
                                     }
                                 }
                             }
@@ -201,24 +236,110 @@ img {
             }
         }
 
+        #herobg {
+            background-image: url(../img/bg1.png);
+            margin-left: 0;
+            width: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 44rem;
+            margin: -38rem 0 0 0;
+
+        }
+
+        #partner {
+            margin-top: 36px;
+
+            #div1 {
+                #div2 {
+                    h1 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 39px;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        text-transform: capitalize;
+                        color: #454545;
+                    }
+                }
+            }
+
+            #div3 {
+                #image {
+                    margin-top: 27px;
+                }
+            }
+        }
+
+        #cards {
+            margin-top: 8rem;
+            display: flex;
+            justify-content: center;
+
+            #div1 {
+                #card1 {
+                    width: 290px;
+                    height: 74px;
+                    background: #5D87C5;
+                    border-radius: 8px;
+                    padding: 15px;
+                    margin: 0 30px;
+
+                    h2 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        letter-spacing: 0.02em;
+                        text-transform: capitalize;
+
+                        color: #FFFFFF;
+                    }
+                }
+
+                #card2 {
+                    width: 289px;
+                    height: 74px;
+                    background: #454545;
+                    border-radius: 8px;
+                    padding: 15px;
+                    margin: 20px 30px;
+
+                    h2 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        letter-spacing: 0.02em;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+
         #more__about {
-            margin: 14rem 0rem 0 0rem;
+            margin: 6rem 1rem 0 1rem;
 
             #div1 {
                 #div2 {
                     #img-div {
-                        padding: 0 2rem;
+                        padding: 3rem 0px;
 
                         .content {
                             h2 {
-                                font-family: 'Poppins';
                                 font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
                             }
 
                             p {
@@ -242,14 +363,14 @@ img {
                             }
 
                             .about_button {
-                                margin: 46px 0 46px 0;
+                                margin: 31px 0 0px 0;
 
                                 .btn3 {
                                     color: var(--white-color);
-                                    // opacity: .4;
+                                    border-radius: 21px;
                                     background-color: var(--primary-color);
                                     border-color: var(--primary-color);
-                                    width: 50%;
+                                    width: 42%;
                                     padding: 9px 18px;
 
                                     &:hover {
@@ -276,7 +397,7 @@ img {
         }
 
         #services {
-            // margin: 0rem 7rem 0 7rem;
+            margin: 0rem 1rem 0 1rem;
 
             #div1 {
                 #div2 {
@@ -285,103 +406,270 @@ img {
                             p {
                                 font-style: normal;
                                 font-weight: 700;
-                                font-size: 20px;
-                                line-height: 30px;
+                                font-size: 32px;
+                                line-height: 39px;
                                 text-align: center;
-                                color: #8B8B8B;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                padding: 0 27px;
+                                color: #454545;
                             }
                         }
                     }
                 }
 
-                #carousel {
-                    #section2 {
-                        .r2 {
-                            .div1 {
-                                .c1 {
-                                    .card-text1 {
-                                        .maindiv {
-                                            .div2 {
+                #div4 {
+                    margin: 60px 0;
 
-                                                h2 {
-                                                    font-family: 'Outfit',
-                                                        sans-serif;
+                    #img-div {
+                        .card1 {
+
+                            border-radius: 8px;
+                            padding: 36px 0;
+                            height: 460px;
+                            margin: 15px 0;
+
+                            .imgdiv {
+                                padding: 33px 0;
+                            }
+
+                            .textdiv {
+                                padding: 0 6px 20px 10px;
+
+
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    text-align: center;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+                                    padding: 0 0 10px 0;
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    text-align: center;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                }
+                            }
+                        }
+                    }
+
+                    #card2 {
+                        .card1 {
+
+                            border-radius: 8px;
+                            padding: 36px 0;
+                            height: 460px;
+
+                            .imgdiv {
+                                padding: 0px 0;
+                            }
+
+                            .textdiv {
+                                padding: 0 6px 20px 10px;
+
+
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    text-align: center;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+                                    padding: 0 0 10px 0;
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    text-align: center;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #ourcouses {
+            margin: 7rem 0rem 0 0rem;
+            padding-bottom: 7rem;
+            background-color: var(--primary-color);
+
+            #div1 {
+                #div2 {
+                    #img-div {
+                        .content {
+                            h2 {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                text-align: center;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                padding: 0 27px;
+                                color: #FFFFFF;
+                            }
+
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                text-align: center;
+                                letter-spacing: 0.02em;
+                                color: #FFFFFF;
+                                padding: 25px 0;
+                            }
+                        }
+                    }
+                }
+
+                #div3 {
+                    .itmnav {
+                        // width: 930px;
+                        height: 81px;
+                        background: #F8F8F8;
+                        border-radius: 16px;
+                        padding: 30px;
+
+                        .list {
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 17px;
+                            letter-spacing: 0.02em;
+                            color: var(--primary-color);
+
+                            .active {
+                                background-color: #5D87C5;
+                                color: white;
+
+                                &:hover {
+                                    background-color: white;
+                                    color: var(--primary-color);
+                                }
+                            }
+
+                            a {
+                                padding: 10px 16px;
+                                background: #FFFFFF;
+                                box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+                                border-radius: 8px;
+                                margin: 0 8px;
+                                color: var(--primary-color);
+
+                                &:hover {
+                                    background-color: var(--primary-color);
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                #div4 {
+                    margin: 60px 0;
+
+                    div {
+                        .card1 {
+                            background-color: white;
+                            border-radius: 8px;
+                            padding: 36px 0;
+                            margin: 15px 0;
+                            // height: 460px;
+
+                            .textdiv {
+                                padding: 33px 33px 0 33px;
+
+
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+                                    padding: 0 0 10px 0;
+                                }
+
+                                h3 {
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        letter-spacing: 0.02em;
+                                        color: #A0AAAF;
+                                    }
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                }
+
+                                .btndiv {
+                                    padding: 33px 0 0 0;
+
+                                    .div1 {
+                                        h2 {
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            font-size: 20px;
+                                            line-height: 24px;
+                                            letter-spacing: 0.02em;
+                                            padding: 8px 0;
+                                            color: #5D87C5;
+                                        }
+                                    }
+
+                                    .div2 {
+                                        .card_button {
+
+                                            .btn3 {
+                                                color: var(--white-color);
+                                                border-radius: 21px;
+                                                background-color: var(--primary-color);
+                                                border-color: var(--primary-color);
+                                                width: 100%;
+                                                padding: 8px 16px;
+
+                                                &:hover {
+                                                    background-color: transparent;
+                                                    color: #4C7CDE;
+                                                    border-color: var(--primary-color);
+                                                }
+
+                                                span {
                                                     font-style: normal;
-                                                    font-weight: 700;
-                                                    font-size: 24px;
-                                                    line-height: 36px;
-                                                    text-align: center;
-                                                    color: #303030;
-                                                    margin: 18px 0 9px 0
-                                                }
-
-                                                p {
-                                                    font-style: normal;
-                                                    font-weight: 400;
-                                                    font-size: 16px;
-                                                    line-height: 24px;
-                                                    text-align: center;
-                                                    color: #8B8B8B;
-                                                    padding: 9px 23px;
-                                                }
-
-                                                .hero_button {
-                                                    margin: 25px 0 0 0;
-
-                                                    .btn3 {
-                                                        color: var(--white-color);
-                                                        // opacity: .4;
-                                                        background-color: var(--primary-color);
-                                                        border-color: var(--primary-color);
-                                                        width: 100%;
-                                                        padding: 9px 18px;
-
-                                                        &:hover {
-                                                            background-color: transparent;
-                                                            color: #4C7CDE;
-                                                            border-color: var(--primary-color);
-                                                        }
-
-                                                        span {
-                                                            font-style: normal;
-                                                            font-weight: 500;
-                                                            font-size: 14px;
-                                                            line-height: 22px;
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            text-transform: uppercase;
-                                                        }
-                                                    }
-                                                }
-
-                                                .card_button {
-                                                    margin: 18px 0 46px 0;
-
-                                                    .btn3 {
-                                                        color: var(--white-color);
-                                                        // opacity: .4;
-                                                        background-color: var(--primary-color);
-                                                        border-color: var(--primary-color);
-                                                        width: 100%;
-                                                        padding: 3px 12px;
-                                                        border-radius: 7px;
-
-                                                        &:hover {
-                                                            background-color: transparent;
-                                                            color: #4C7CDE;
-                                                            border-color: var(--primary-color);
-                                                        }
-
-                                                        span {
-                                                            font-style: normal;
-                                                            font-weight: 500;
-                                                            font-size: 12px;
-                                                            line-height: 22px;
-                                                            display: flex;
-                                                            justify-content: center;
-                                                            text-transform: uppercase;
-                                                        }
-                                                    }
+                                                    font-weight: 500;
+                                                    font-size: 14px;
+                                                    line-height: 22px;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    text-transform: uppercase;
                                                 }
                                             }
                                         }
@@ -391,75 +679,34 @@ img {
                         }
                     }
                 }
-            }
-        }
 
-        #what_we_do {
-            margin: 0 2rem;
+                #div5 {
+                    div {
+                        .course_button {
+                            margin: 31px 0 0px 0;
 
-            #div1 {
-                #div2 {
-                    #img-div {
-                        padding: 8rem 0px;
+                            .btn3 {
+                                color: var(--primary-color);
+                                border-radius: 21px;
+                                background-color: var(--white-color);
+                                border-color: var(--white-color);
+                                width: 100%;
+                                padding: 9px 18px;
 
-                        .content {
-                            h2 {
-                                font-family: 'Poppins';
-                                font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
-                            }
+                                &:hover {
+                                    background-color: var(--first-color);
+                                    color: white;
+                                    border-color: var(--first-color);
+                                }
 
-                            p {
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 20px;
-                                line-height: 30px;
-                                color: #8B8B8B;
-                            }
-                        }
-
-                        .para {
-                            p {
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 24px;
-                                color: #8B8B8B;
-                                padding: 28px 31px 0 0;
-                                text-align: justify;
-                            }
-
-                            .about_button {
-                                margin: 46px 0 46px 0;
-
-                                .btn3 {
-                                    color: var(--white-color);
-                                    // opacity: .4;
-                                    background-color: var(--primary-color);
-                                    border-color: var(--primary-color);
-                                    width: 50%;
-                                    padding: 9px 18px;
-
-                                    &:hover {
-                                        background-color: transparent;
-                                        color: #4C7CDE;
-                                        border-color: var(--primary-color);
-                                    }
-
-                                    span {
-                                        font-style: normal;
-                                        font-weight: 500;
-                                        font-size: 14px;
-                                        line-height: 22px;
-                                        display: flex;
-                                        justify-content: center;
-                                        text-transform: uppercase;
-                                    }
+                                span {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                    display: flex;
+                                    justify-content: center;
+                                    text-transform: uppercase;
                                 }
                             }
                         }
@@ -469,16 +716,16 @@ img {
         }
 
         #bannerbg {
-            padding: 6rem 0rem 6rem 0rem;
-            background-image: url(../img/bannerbg.png);
-            background-repeat: no-repeat;
-            background-size: cover;
 
             #div1 {
+                padding: 4rem 0rem 8rem 0rem;
+                background-image: url(../img/bg3.png);
+                background-repeat: no-repeat;
+                // background-size: 300px 100px;/
+
                 #div2 {
                     #div3 {
-                        padding: 63px 30px 0 22px;
-                        ;
+                        padding: 63px 0 0 0;
 
                         h2 {
                             font-family: 'outfit', Poppins;
@@ -490,6 +737,10 @@ img {
                             align-items: center;
                             text-transform: uppercase;
                             color: var(--white-color);
+                        }
+
+                        p {
+                            padding: 0 40px;
                         }
 
                         .banner_button {
@@ -531,24 +782,23 @@ img {
             }
         }
 
-        #frequentquestion {
-            margin: 6rem 0rem 0 0rem;
+        #career {
+            margin: 3rem 1rem 4rem 1rem;
 
             #div1 {
                 #div2 {
                     #img-div {
-                        margin: 41px 0;
+                        padding: 3rem 0px;
 
                         .content {
                             h2 {
-                                font-family: 'Poppins';
                                 font-style: normal;
-                                font-weight: 600;
-                                font-size: 31.25px;
-                                line-height: 47px;
-                                display: flex;
-                                align-items: center;
-                                color: #060B07;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
                             }
 
                             p {
@@ -560,6 +810,327 @@ img {
                             }
                         }
 
+                        .para {
+                            p {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #8B8B8B;
+                                padding: 28px 31px 0 0;
+                                text-align: justify;
+                            }
+
+                            .about_button {
+                                margin: 31px 0 0px 0;
+
+                                .btn3 {
+                                    color: var(--white-color);
+                                    border-radius: 21px;
+                                    background-color: var(--primary-color);
+                                    border-color: var(--primary-color);
+                                    width: 100%;
+                                    padding: 9px 18px;
+
+                                    &:hover {
+                                        background-color: transparent;
+                                        color: #4C7CDE;
+                                        border-color: var(--primary-color);
+                                    }
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                        display: flex;
+                                        justify-content: center;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #testi {
+            margin: 3rem 1rem 0 1rem;
+
+            #div1 {
+                #div2 {
+                    .card1 {
+                        background: #F8F8F8;
+                        border-radius: 8px;
+                        padding: 32px;
+                        margin: 15px 0;
+
+                        .imgdiv {
+                            div {
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    letter-spacing: 0.02em;
+                                    text-transform: capitalize;
+                                    color: #454545;
+
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 12px;
+                                        line-height: 15px;
+                                        letter-spacing: 0.02em;
+                                        text-transform: capitalize;
+                                        color: rgba(69, 69, 69, 0.5);
+                                    }
+                                }
+                            }
+                        }
+
+                        .textdiv {
+                            p {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 12px;
+                                line-height: 15px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
+                            }
+                        }
+                    }
+                }
+
+                #divbtn {
+                    background: linear-gradient(180deg, rgba(255, 255, 255, .4) 0%, #FFFFFF 100%);
+                    position: relative;
+                    top: -26rem;
+                    height: 429.38px;
+                    padding: 135px 0 0 0;
+
+                    .career_button {
+                        margin: 31px 0 0px 0;
+
+                        .btn3 {
+                            color: var(--white-color);
+                            border-radius: 21px;
+                            background-color: var(--primary-color);
+                            border-color: var(--primary-color);
+                            width: 100%;
+                            padding: 9px 18px;
+
+                            &:hover {
+                                background-color: var(--white-color);
+                                color: #4C7CDE;
+                                border-color: var(--white-color);
+                            }
+
+                            span {
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 22px;
+                                display: flex;
+                                justify-content: center;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #background {
+            background-color: white;
+            height: 9rem;
+            position: relative;
+            top: -38rem;
+        }
+
+        #events {
+            margin: -41rem 1rem 0 1rem;
+            /* padding-bottom: 7rem; */
+            position: relative;
+
+            #div1 {
+                #div2 {
+                    #img-div {
+                        .content {
+                            h2 {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                text-align: center;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                padding: 0 68px;
+                                color: #454545;
+                            }
+                        }
+                    }
+                }
+
+                #div4 {
+                    margin: 60px 0;
+
+                    div {
+                        .card1 {
+                            background: rgba(93, 135, 197, 0.1);
+                            border-radius: 8px;
+                            padding: 0 0 36px 0;
+                            // width: 392px;
+
+                            .time {
+                                padding: 34px 24px 0 24px;
+
+                                .div2 {
+                                    h2 {
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        text-align: right;
+                                        letter-spacing: 0.02em;
+                                        color: #5D87C5;
+                                    }
+                                }
+
+                                .div1 {
+                                    h2 {
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        text-align: right;
+                                        letter-spacing: 0.02em;
+                                        color: #5D87C5;
+                                    }
+                                }
+                            }
+
+                            .textdiv {
+                                padding: 11px 24px 0 24px;
+
+
+                                h2 {
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                    padding: 0 48px 7px 0;
+                                }
+
+                                h3 {
+                                    span {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                        letter-spacing: 0.02em;
+                                        color: #4C7BC1;
+                                    }
+                                }
+
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    letter-spacing: 0.02em;
+                                    color: #454545;
+                                }
+
+                                .btndiv {
+                                    padding: 33px 0 0 0;
+
+                                    .div1 {
+                                        h2 {
+                                            font-style: normal;
+                                            font-weight: 700;
+                                            font-size: 16px;
+                                            line-height: 19px;
+                                            text-align: right;
+                                            letter-spacing: 0.02em;
+                                            padding: 10px;
+                                            color: #5B5858;
+                                        }
+                                    }
+
+                                    .div2 {
+                                        .card_button {
+
+                                            .btn3 {
+                                                color: var(--white-color);
+                                                border-radius: 21px;
+                                                background-color: var(--primary-color);
+                                                border-color: var(--primary-color);
+                                                width: 100%;
+                                                padding: 8px 16px;
+
+                                                &:hover {
+                                                    background-color: transparent;
+                                                    color: #4C7CDE;
+                                                    border-color: var(--primary-color);
+                                                }
+
+                                                span {
+                                                    font-style: normal;
+                                                    font-weight: 500;
+                                                    font-size: 12px;
+                                                    line-height: 22px;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    text-transform: uppercase;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #frequentquestion {
+            margin: 6rem 1rem 0 1rem;
+
+            #div1 {
+                #div2 {
+                    #img-div {
+                        margin: 41px 0;
+
+                        .content {
+
+                            p {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 32px;
+                                line-height: 39px;
+                                letter-spacing: 0.02em;
+                                text-transform: capitalize;
+                                color: #454545;
+                                padding: 0 17rem 0 0;
+                            }
+                        }
+
                         .Dropdowns {
                             #all_container {
 
@@ -567,10 +1138,8 @@ img {
                                 .faq {
                                     width: 100%;
                                     margin: 0 auto;
-                                    // background: var(--first-color);
-                                    // border-radius: 4px;
                                     position: relative;
-                                    border-bottom: 1px dashed var(--first-color);
+                                    margin-bottom: 10px;
 
                                     label {
                                         display: block;
@@ -580,23 +1149,32 @@ img {
                                         height: 56px;
                                         padding-top: 1px;
                                         border-radius: 10px;
+                                        background: white;
+                                        box-shadow: 0px 4px 30px rgba(93, 135, 197, 0.15);
+                                        border-radius: 8px;
 
                                         .faq-heading {
-                                            font-weight: 800;
-                                            font-size: 14px;
                                             padding: 16px;
-                                            color: var(--first-color);
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                            line-height: 24px;
+                                            letter-spacing: 0.02em;
+                                            color: #454545;
                                         }
 
                                         .faq-text {
-                                            font-weight: 300;
-                                            font-size: 16px;
-                                            line-height: 100%;
-                                            color: var(--first-color);
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            line-height: 19px;
+                                            letter-spacing: 0.02em;
+                                            color: #454545;
                                             width: 95%;
                                             padding-left: 20px;
                                             margin-bottom: 30px;
                                             text-align: justify;
+
                                         }
                                     }
 
@@ -610,11 +1188,11 @@ img {
                                         transition: -webkit-transform 0.8s;
                                         transition: transform 0.8s;
                                         transition: transform 0.8s, -webkit-transform 0.8s;
-                                        border-top: 4px solid var(--dark-color);
-                                        border-right: 4px solid var(--dark-color);
+                                        border-top: 3px solid var(--dark-color);
+                                        border-right: 3px solid var(--dark-color);
                                         float: right;
                                         position: relative;
-                                        top: -51px;
+                                        top: -49px;
                                         right: 30px;
                                         transform: rotate(45deg);
                                     }
@@ -623,7 +1201,7 @@ img {
                                         &+label {
                                             display: block;
                                             color: white;
-                                            height: 250px;
+                                            height: 185px;
                                             transition: height 0.2s;
 
                                             &>.faq-arrow {
@@ -636,8 +1214,10 @@ img {
                                             &>.faq-heading {
                                                 font-weight: 800;
                                                 font-size: 14px;
-                                                color: var(--primary-color);
+                                                color: white;
+                                                background-color: var(--primary-color);
                                                 padding: 16px;
+                                                border-radius: 8px;
                                             }
                                         }
                                     }
@@ -647,6 +1227,8 @@ img {
                                             display: block;
                                             transition: height 0.8s;
                                             height: 60px;
+                                            background: #E4E4E4;
+                                            margin: 0 0 10px 0;
                                         }
                                     }
                                 }
@@ -659,29 +1241,19 @@ img {
     }
 
     #contact {
-        padding: 6rem 0rem 0rem 0rem;
-
+        margin: 6rem 0 0 0;
+        padding: 0rem 1rem 0rem 1rem;
+        background-image: url(../img/contactbg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
 
         #div1 {
-            background-image: url(../img/contactbg.png);
-            background-repeat: no-repeat;
-            background-size: 80rem 54rem;
-
-
             #div2 {
                 .div4 {
                     padding: 7rem 0 8rem 0;
 
                     .sec1 {
                         div {
-                            h3 {
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-align: center;
-                                color: #FFFFFF;
-                            }
 
                             h1 {
                                 font-family: outfit;
@@ -692,15 +1264,6 @@ img {
                                 text-align: center;
                                 color: #FFFFFF;
                             }
-
-                            p {
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 24px;
-                                text-align: center;
-                                color: #DCDCDC;
-                            }
                         }
                     }
 
@@ -709,46 +1272,48 @@ img {
 
                         div {
                             .form {
-                                mix-blend-mode: normal;
-                                backdrop-filter: blur(5px);
-                                border-radius: 16px;
 
                                 form {
                                     textarea {
                                         position: relative;
                                         color: black;
-                                        background-color: white;
-                                        padding: 27px 28px;
+                                        background: transparent;
+                                        padding: 16px 5px;
                                         font-style: normal;
                                         font-size: 15.24px;
                                         line-height: 15px;
                                         display: flex;
                                         align-items: center;
-                                        color: #6A6D6A;
+                                        color: white;
                                         border: 0;
+                                        border-bottom: 1px solid white;
 
                                         &::placeholder {
                                             font-style: normal;
                                             font-weight: 600;
                                             font-size: 12px;
                                             line-height: 18px;
-                                            color: #8B8B8B;
+                                            color: white;
                                         }
                                     }
 
                                     input {
                                         height: 41px;
                                         border-radius: 8x;
-                                        padding: 27px 28px;
+                                        background: transparent;
+                                        border: 0;
+                                        border-bottom: 1px solid white;
+                                        padding: 16px 5px;
                                         font-style: normal;
                                         font-size: 15.24px;
+                                        margin: 19px 0 0 0px;
 
                                         &::placeholder {
                                             font-style: normal;
                                             font-weight: 600;
                                             font-size: 12px;
                                             line-height: 18px;
-                                            color: #8B8B8B;
+                                            color: white;
                                         }
                                     }
 
@@ -759,8 +1324,9 @@ img {
                                                     color: var(--primary-color);
                                                     background-color: white;
                                                     border-color: var(--primary-color);
-                                                    padding: 9px 28px;
-                                                    border-radius: 6px;
+                                                    padding: 13px 25px;
+                                                    border-radius: 26px;
+                                                    margin: 30px 0 0 0;
 
 
                                                     &:hover {
@@ -806,74 +1372,71 @@ img {
 
 
     #footer {
-        background-color: var(--primary-color);
-        padding: 6rem 0 1rem 0;
-        margin: -13rem 0 0 0;
+        background-color: #454545;
+        padding: 6rem 10px 1rem 10px;
+        margin: -4rem 0 0 0;
 
-        .r1 {
-            .div1 {
-                div {
-                    p {
-                        font-style: normal;
-                        font-size: 14px;
-                        padding: 20px 0 0 0;
-                        color: #FFFFFF;
-                    }
+        #div1 {
+            #row1 {
+                #icondiv {
+                    display: flex;
+                    justify-content: center;
 
-                    #links {
-                        .links-item {
-                            width: 146px;
-                            padding: 5px;
-
-                            a {
-                                #icons {
-                                    font-size: 23px;
-                                }
-                            }
+                    a {
+                        img {
+                            padding: 10px;
                         }
-                    }
-
-                    .r2 {
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 12px;
-                        line-height: 21px;
-                        color: #6A6D6A;
-                        margin-top: 4rem;
                     }
                 }
             }
 
-            #div2 {
-                margin-top: 15px;
+            .dashed-line {
+                border-bottom: 3px dashed #848FA0;
+                margin: 55px 0;
+            }
 
-                h2 {
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 28px;
-                    color: #FFFFFF;
-                    margin: 0 0 37px 0;
-                }
+            #row2 {
+                margin: 7rem 0;
 
-                #link-ftr {
-                    // padding: 20px;
+                .div1 {
+                    .div2 {
+                        h2 {
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+                            letter-spacing: 0.02em;
+                            color: #FFFFFF;
+                            padding: 29px 0 4px 0;
+                        }
 
-                    a {
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 21px;
-                        display: flex;
-                        align-items: center;
-                        color: white;
-                        margin: 20px 0;
+                        p {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            letter-spacing: 0.02em;
+                            color: #FFFFFF;
+
+                        }
                     }
+                }
+            }
+
+            #row3 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;
+
+                span {
+                    color: #5D87C5;
                 }
             }
         }
-
-
     }
 }
 
@@ -907,27 +1470,34 @@ img {
         font-weight: 600;
         font-size: 14px;
         line-height: 22px;
-        color: var(--first-color);
+        color: White;
     }
 
     &__social {
-        .btn1 {
-            padding: 0 20px 0 0;
-            background: none;
-            border: none;
-            color: white;
-        }
+
 
         .btn2 {
             color: var(--white-color);
-            // opacity: .4;
+            border-radius: 21px;
             background-color: var(--primary-color);
             border-color: var(--primary-color);
+            width: 28%;
+            padding: 9px 18px;
 
             &:hover {
                 background-color: transparent;
-                color: var(--white-color);
-                border-color: var(--white-color);
+                color: #4C7CDE;
+                border-color: var(--primary-color);
+            }
+
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                display: flex;
+                justify-content: center;
+                text-transform: uppercase;
             }
         }
 
@@ -942,7 +1512,7 @@ img {
 
 /*Active menu*/
 .active {
-    color: var(--primary-color);
+    color: #454545;
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -998,20 +1568,32 @@ img {
 
         &__item {
             margin: 0 .25rem;
+            display: flex;
+            align-items: center;
 
             .btn2 {
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 16px;
-                /* identical to box height, or 133% */
+                color: var(--primary-color);
+                border-radius: 21px;
+                background-color: var(--white-color);
+                border-color: var(--white-color);
+                width: 100;
+                padding: 9px 18px;
 
-                text-align: center;
-                letter-spacing: 0.02em;
-                text-transform: capitalize;
+                &:hover {
+                    background-color: transparent;
+                    color: #4C7CDE;
+                    border-color: var(--primary-color);
+                }
 
-                /* Light */
-
-                color: #FFFFFF;
+                span {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: 0.02em;
+                    color: #5D87C5;
+                }
             }
         }
 
@@ -1021,7 +1603,7 @@ img {
 
             &:hover {
                 // background-color: var(--first-color);
-                color: var(--primary-color);
+                color: #454545;
             }
 
 
@@ -2158,23 +2740,12 @@ img {
         background-size: contain;
 
         #div1 {
-
-
-
             #div2 {
                 .div4 {
                     padding: 7rem 0 8rem 0;
 
                     .sec1 {
                         div {
-                            h3 {
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 20px;
-                                line-height: 30px;
-                                text-align: center;
-                                color: #FFFFFF;
-                            }
 
                             h1 {
                                 font-family: outfit;
@@ -2185,15 +2756,6 @@ img {
                                 text-align: center;
                                 color: #FFFFFF;
                             }
-
-                            p {
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 24px;
-                                text-align: center;
-                                color: #DCDCDC;
-                            }
                         }
                     }
 
@@ -2202,46 +2764,48 @@ img {
 
                         div {
                             .form {
-                                mix-blend-mode: normal;
-                                backdrop-filter: blur(5px);
-                                border-radius: 16px;
 
                                 form {
                                     textarea {
                                         position: relative;
                                         color: black;
-                                        background-color: white;
-                                        padding: 27px 28px;
+                                        background: transparent;
+                                        padding: 16px 5px;
                                         font-style: normal;
                                         font-size: 15.24px;
                                         line-height: 15px;
                                         display: flex;
                                         align-items: center;
-                                        color: #6A6D6A;
+                                        color: white;
                                         border: 0;
+                                        border-bottom: 1px solid white;
 
                                         &::placeholder {
                                             font-style: normal;
                                             font-weight: 600;
                                             font-size: 12px;
                                             line-height: 18px;
-                                            color: #8B8B8B;
+                                            color: white;
                                         }
                                     }
 
                                     input {
                                         height: 41px;
                                         border-radius: 8x;
-                                        padding: 27px 28px;
+                                        background: transparent;
+                                        border: 0;
+                                        border-bottom: 1px solid white;
+                                        padding: 16px 5px;
                                         font-style: normal;
                                         font-size: 15.24px;
+                                        margin: 19px 0 0 0px;
 
                                         &::placeholder {
                                             font-style: normal;
                                             font-weight: 600;
                                             font-size: 12px;
                                             line-height: 18px;
-                                            color: #8B8B8B;
+                                            color: white;
                                         }
                                     }
 
@@ -2252,8 +2816,9 @@ img {
                                                     color: var(--primary-color);
                                                     background-color: white;
                                                     border-color: var(--primary-color);
-                                                    padding: 9px 28px;
-                                                    border-radius: 6px;
+                                                    padding: 13px 25px;
+                                                    border-radius: 26px;
+                                                    margin: 30px 0 0 0;
 
 
                                                     &:hover {
@@ -2299,76 +2864,75 @@ img {
 
 
     #footer {
-        background-color: var(--primary-color);
-        padding: 6rem 0 1rem 0;
-        margin: -13rem 0 0 0;
+        background-color: #454545;
+        padding: 6rem 10px 1rem 10px;
+        margin: -4rem 0 0 0;
 
-        .r1 {
-            .div1 {
-                div {
-                    p {
-                        font-style: normal;
-                        font-size: 14px;
-                        padding: 20px 0 0 0;
-                        color: #FFFFFF;
-                    }
+        #div1 {
+            #row1 {
+                #icondiv {
+                    display: flex;
+                    justify-content: start;
 
-                    #links {
-                        .links-item {
-                            width: 146px;
-                            padding: 5px;
-
-                            a {
-                                #icons {
-                                    font-size: 23px;
-                                }
-                            }
+                    a {
+                        img {
+                            padding: 10px;
                         }
-                    }
-
-                    .r2 {
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 12px;
-                        line-height: 21px;
-                        color: #6A6D6A;
-                        margin-top: 4rem;
                     }
                 }
             }
 
-            #div2 {
-                h2 {
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 28px;
-                    color: #FFFFFF;
-                    margin: 0 0 37px 0;
-                }
+            .dashed-line {
+                border-bottom: 3px dashed #848FA0;
+                margin: 55px 0;
+            }
 
-                #link-ftr {
-                    // padding: 20px;
+            #row2 {
+                margin: 7rem 0;
 
-                    a {
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 14px;
-                        line-height: 21px;
-                        display: flex;
-                        align-items: center;
-                        color: white;
-                        margin: 20px 0;
+                .div1 {
+                    .div2 {
+                        h2 {
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+                            letter-spacing: 0.02em;
+                            color: #FFFFFF;
+                            padding: 29px 0 4px 0;
+                        }
+
+                        p {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-align: center;
+                            letter-spacing: 0.02em;
+                            color: #FFFFFF;
+
+                        }
                     }
+                }
+            }
+
+            #row3 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;
+
+                span {
+                    color: #5D87C5;
                 }
             }
         }
-
-
     }
 
     .active {
-        color: var(--primary-color);
+        color: #454545;
     }
 }
 
