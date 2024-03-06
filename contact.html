@@ -72,46 +72,92 @@
                         </div>
 
                         <div class="col-12 row sec2">
-                            <div class="col-md-2"></div>
-                            <div class="col-md-8">
+                            <!-- <div class="col-md-2"></div> -->
+                            <div class="col-md-12">
                                 <div class="form">
-                                    <form action="" class="form-horizontal form-material text-white" method="POST">
-                                        <div class="form-group mt-3">
-                                            <div class="col-md-12  mt-3">
-                                                <input placeholder="Your Name" type="text" name="fullname"
-                                                    class="form-control ">
-                                            </div>
-                                        </div>
-                                        <div class="form-group mt-3">
-                                            <div class="col-md-12  mt-3">
-                                                <input placeholder="Your Email Address" type="email" name="email"
-                                                    class="form-control  ">
-                                            </div>
-                                        </div>
-                                        <div class="form-group mt-3">
-                                            <div class="col-md-12  mt-3">
-                                                <textarea placeholder="Type the messsage here" rows="8" cols="50"
-                                                    name="content" class="form-control"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div
-                                            class="col-md-12 col-12 item2 d-flex justify-content-center align-self-center mt-3 button">
-                                            <div class="sec1_button">
-                                                <div class="out_btn2 mt-3">
-                                                    <button type="submit" name="submit"
-                                                        class="btn btn2 btn-primary btn-outline-light btn-sm text-center">
-                                                        <Span>
-                                                            Send Message
-                                                        </Span>
-                                                    </button>
+                                    <div class="container mt-5">
+                                        <form action="" class="form-horizontal form-material text-white" method="POST">
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" id="firstName"
+                                                        placeholder="FIRST NAME " required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" id="lastName"
+                                                        placeholder="LAST NAME" required>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </form>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <input type="tel" class="form-control" id="phoneNumber"
+                                                        placeholder="PHONE NUMBER" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <input type="email" class="form-control" id="email"
+                                                        placeholder="EMAIL" required>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="row mb-4">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" id="city"
+                                                        placeholder="ENTER YOUR CITY" required>
+                                                </div>
+
+                                                <div class="col-md-6 mt-4">
+                                                    <select class="form-select" id="applingAs" required>
+                                                        <option value="" disabled selected>Appling as</option>
+                                                        <option value="trainee">Trainee</option>
+                                                        <option value="trainer">Trainer</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-6 mb-3">
+                                                    <select class="form-select" id="course" required>
+                                                        <option value="" disabled selected>Select a course</option>
+                                                        <option value="course1">UI.UX</option>
+                                                        <option value="course2">Artificial Intelligence</option>
+                                                        <option value="course3">Graphics</option>
+                                                        <option value="course4">Video Editing</option>
+                                                        <option value="course5">Data Science</option>
+                                                        <option value="course6">Block Chain</option>
+                                                        <option value="course7">Cyber Security</option>
+                                                        <option value="course8">Python Programming</option>
+                                                        <option value="course9">App Development</option>
+                                                        <option value="course10">Web Development</option>
+                                                        <option value="course11">Digital Marketing</option>
+                                                        <option value="course12">E-Commerce</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <select class="form-select" id="gender" required>
+                                                        <option value="" disabled selected>Select your gender</option>
+                                                        <option value="male">Male</option>
+                                                        <option value="female">Female</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <textarea class="form-control" id="message" rows="3"
+                                                    placeholder="ENTER YOUR MESSAGE"></textarea>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary rounded-pill"
+                                                style="background-color: #E6E7E9; border-color: #007BFF; color: #4C7BC1;"
+                                                onmouseover="this.style.backgroundColor='#0056b3'; this.style.color='#fff';"
+                                                onmouseout="this.style.backgroundColor='#E6E7E9'; this.style.color='#007BFF';">Submit</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-2"></div>
+                            <!-- <div class="col-md-2"></div> -->
                         </div>
                     </div>
                     <div class="col-md-2 col-12"> </div>
@@ -127,9 +173,10 @@
         <div class="container" id="div1">
             <div class="row" id="row1">
                 <div class="col-md-4 " id="icondiv">
-                    <a href="#"><img src="./assets/img/linkedin.png" alt=""></a>
-                    <a href="#"><img src="./assets/img/fb.png" alt=""></a>
-                    <a href="#"><img src="./assets/img/twitter.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/eblearninglab/"><img src="./assets/img/linkedin.png"
+                            alt=""></a>
+                    <a href="https://www.facebook.com/eblearninglab/"><img src="./assets/img/fb.png" alt=""></a>
+                    <a href="https://twitter.com/EBlearninglab"><img src="./assets/img/twitter.png" alt=""></a>
 
                 </div>
                 <div class="col-md-4 d-flex justify-content-center">
@@ -157,16 +204,15 @@
 
                     <div class="col-md-4 text-center div2">
                         <img src="./assets/img/phone.png" alt="">
-                        <h2>Email</h2>
+                        <h2>Phone</h2>
                         <p>
-                            0092-345 1289901 <br>
-                            0092-300 2984021
+                            +92 346 2616717
                         </p>
                     </div>
 
                     <div class="col-md-4 text-center div2">
                         <img src="./assets/img/location.png" alt="">
-                        <h2>Email</h2>
+                        <h2>Address</h2>
                         <p>
                             PTCL Training Center, <br>
                             Board Bazar, Peshawar

@@ -1,0 +1,124 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #5d87c5 !important;
+}
+
+body .container {
+    max-width: 1300px;
+}
+
+.container .selection {
+    background-color: #F8F8F8;
+    max-width: 900px;
+    height: 80px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem auto;
+}
+
+#filter-buttons button {
+    border-radius: 3px;
+    background: #fff;
+    border-color: transparent;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+#filter-buttons button:hover {
+    background: #4C7BC1;
+    color: #fff;
+}
+
+#filter-buttons button.active {
+    color: #fff;
+    background: #4C7BC1;
+}
+
+#filterable-cards .card {
+    width: 26rem;
+    border: 2px solid transparent;
+}
+
+#filterable-cards .card img {
+    padding: 0.7rem 1.2rem;
+}
+
+.card-body p {
+    font-size: 14px;
+}
+
+.card-body .card-body-row {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    color: #A0AAAF;
+}
+
+.card-body .card-body-row img {
+    margin-left: -23px;
+}
+
+.card-body .card-body-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-body .card-body-row2 h4 {
+    color: #5D87C5;
+}
+
+.card-body .card-body-row2 a {
+    color: #E6E7E9;
+    background-color: #5D87C5;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+
+.card-body .card-body-row2 a:hover {
+    background: #fff;
+    color: #5D87C5;
+    border: 1px solid #5D87C5;
+}
+
+
+
+#filterable-cards .card.hide {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    #filterable-cards {
+        justify-content: center;
+    }
+
+    #filterable-cards .card {
+        width: calc(100% / 1 - 10px);
+    }
+}
+
+@media (max-width: 780px) {
+    .container .selection {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;
+        padding: 1rem 0rem 1rem 1rem;
+    }
+
+    #filter-buttons button {
+        font-size: 11px;
+    }
+}
